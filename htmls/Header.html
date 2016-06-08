@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>学邦头部导航</title>
+	<link rel="stylesheet" href="../stylesheets/reset.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+	<style type="text/css">
+		body {
+			background-color: #fff;
+			font-size: 14px;
+			overflow: hidden;
+		}
+		ul {
+			width: 1000px;
+			overflow: hidden;
+			border-bottom: 1px solid #ccc;
+		}
+		li {
+			float: left;
+			width: 119px;
+			background-color: rgba(0, 0, 0, 0.1);
+			text-align: center;
+			height: 40px;
+			line-height: 40px;
+			overflow: hidden;
+			cursor: pointer;
+		}
+		li+li {
+			border-left: 1px solid #ccc;
+		}
+		li:hover {
+			background-color: rgba(0, 0, 0, 0.4);	
+		}
+		li:hover a {
+			color: #fff;
+		}
+		a {
+			color: #000;
+			text-decoration: none;
+			font-size: 14px;
+		}
+	</style>
+	<script type="text/javascript">
+		function skit(n) {
+			window.parent.skin(n);
+		}
+	</script>
+</head>
+<body>
+	<ul >
+		<li><a href="javascript:skit(0);">关于学邦</a></li>
+	    <li><a href="javascript:skit(1);">趋势人才培养</a></li>
+	    <li><a href="javascript:skit(2);">学邦研发</a></li>
+	    <li><a href="javascript:skit(3);">职业规划</a></li>
+	    <li><a href="javascript:skit(4);">学邦团队</a></li>
+    	<li><a href="javascript:skit(5);">认证与证书</a></li>
+    	<li><a href="javascript:skit(6);">学邦画廊</a></li>
+    	<li><a href="javascript:skit(7);">学邦论坛</a></li>
+	</ul>
+</body>
+</html>
